@@ -1,6 +1,7 @@
 @charset "UTF-8";
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Scope+One|Trocchi");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
 
 /*
 	Urban by TEMPLATED
@@ -1508,7 +1509,7 @@ body.is-loading *:after {
 
 body {
     background-color: #fff;
-    color: #999999;
+    color: #333333;
 }
 
 body,
@@ -1739,7 +1740,7 @@ textarea {
 }
 
 a {
-    color: #999999;
+    color: #333333;
 }
 
 a:hover {
@@ -1903,7 +1904,7 @@ input[type="reset"],
 input[type="button"],
 button,
 .button {
-    background-color: #3498db;
+    background-color: #457b9d;
     color: #fff !important;
 }
 
@@ -2324,7 +2325,7 @@ textarea:focus {
 
 input[type="checkbox"]+label,
 input[type="radio"]+label {
-    color: #999999;
+    color: #333333;
 }
 
 input[type="checkbox"]+label:before,
@@ -2395,7 +2396,7 @@ input[type="radio"]:focus+label:before {
     border: 0;
     display: inline-block;
     position: relative;
-    box-shadow: 0px 0px 0px 7px #fff, 0px 0px 0px 8px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0px 0px 0px 7px #fff, 0px 0px 0px 8px rgba(0, 0, 0, 0.1); */
 }
 
 .image img {
@@ -2813,7 +2814,7 @@ table.alt tbody tr td {
 
 .wrapper .inner {
     margin: 0 auto;
-    width: 80em;
+    width: 70em;
     position: relative;
     z-index: 99;
 }
@@ -2830,7 +2831,7 @@ table.alt tbody tr td {
 
 .wrapper.style1 {
     background-color: #fafafa;
-    color: #999999;
+    color: #333333;
 }
 
 .wrapper.style1 input,
@@ -2840,11 +2841,7 @@ table.alt tbody tr td {
 }
 
 .wrapper.style1 a {
-    color: #000;
-}
-
-.wrapper.style1 a:hover {
-    color: rgba(0, 0, 0, 0.5);
+    color: #8998b0;
 }
 
 .wrapper.style1 strong,
@@ -2883,7 +2880,7 @@ table.alt tbody tr td {
 .wrapper.style1 input[type="button"],
 .wrapper.style1 button,
 .wrapper.style1 .button {
-    background-color: #3498db;
+    background-color: #457b9d;
     color: #fff !important;
 }
 
@@ -2974,7 +2971,7 @@ table.alt tbody tr td {
 
 .wrapper.style1 input[type="checkbox"]+label,
 .wrapper.style1 input[type="radio"]+label {
-    color: #999999;
+    color: #333333;
 }
 
 .wrapper.style1 input[type="checkbox"]+label:before,
@@ -3049,7 +3046,7 @@ table.alt tbody tr td {
 }
 
 .wrapper.style2 {
-    background-color: #3498db;
+    background-color: #457b9d;
     color: #aed6f1;
 }
 
@@ -3060,7 +3057,7 @@ table.alt tbody tr td {
 }
 
 .wrapper.style2 a {
-    color: #999999;
+    color: #333333;
 }
 
 .wrapper.style2 a:hover {
@@ -3104,7 +3101,7 @@ table.alt tbody tr td {
 .wrapper.style2 button,
 .wrapper.style2 .button {
     background-color: #fff;
-    color: #3498db !important;
+    color: #457b9d !important;
 }
 
 .wrapper.style2 input[type="submit"].alt,
@@ -3268,9 +3265,10 @@ table.alt tbody tr td {
     border-color: rgba(255, 255, 255, 0.25);
 }
 
-.wrapper.style2 .image {
-    box-shadow: 0px 0px 0px 7px #3498db, 0px 0px 0px 8px rgba(255, 255, 255, 0.25);
-}
+
+/* .wrapper.style2 .image {
+    box-shadow: 0px 0px 0px 7px #457b9d, 0px 0px 0px 8px rgba(255, 255, 255, 0.25);
+} */
 
 @media screen and (max-width: 1280px) {
     .wrapper>.inner {
@@ -3368,11 +3366,11 @@ body.subpage {
 
 #header>.logo a {
     font-size: 1.25em;
-    color: #3498db;
+    color: #457b9d;
 }
 
 #header>.logo a:hover {
-    color: #3498db;
+    color: #457b9d;
 }
 
 #header>.logo span {
@@ -3394,7 +3392,7 @@ body.subpage {
 }
 
 #header>a:hover {
-    color: #3498db;
+    color: #457b9d;
 }
 
 #header>a[href="#menu"] {
@@ -3544,7 +3542,7 @@ body.subpage {
 }
 
 #menu>ul.links>li:hover {
-    color: #3498db;
+    color: #457b9d;
 }
 
 #menu>ul.links>li:first-child>a:not(.button) {
@@ -3588,7 +3586,7 @@ body.subpage {
 }
 
 #menu .close:hover {
-    color: #3498db;
+    color: #457b9d;
 }
 
 @media screen and (max-width: 736px) {
@@ -3790,4 +3788,35 @@ body.subpage {
 .topnav a:hover,
 .topnav a.active {
     border-top: 3.5px solid black;
+}
+
+@media screen and (max-width: 480px) {
+    #about {
+        text-align: center;
+    }
+}
+
+#about .image {
+    width: 265px;
+}
+
+#projects img {
+    border-radius: 1%;
+    height: 320px;
+}
+
+#projects img:hover {
+    opacity: 0.4;
+}
+
+#contact a {
+    color: white;
+}
+
+#contact i {
+    margin-right: 1em;
+}
+
+#contact h4 {
+    letter-spacing: 0.05rem;
 }
